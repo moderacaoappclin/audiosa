@@ -1,12 +1,12 @@
 {
- "name":"Clínica Áudio S.A. — Protótipo V1",
- "short_name":"Áudio S.A. Demo",
- "description":"Protótipo visual sem conexão com dados reais.",
- "start_url":"./index.html",
- "scope":"./",
- "display":"standalone",
- "background_color":"#f4f8fb",
- "theme_color":"#083d4c",
- "lang":"pt-BR",
- "icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+  "name": "audiosa.app — Áudio S.A. Gestão Integrada (DEMO)",
+  "short_name": "Áudio S.A. Demo",
+  "description": "Demonstração visual V1.2 de gestão integrada. Somente o Financeiro está previsto para ativação inicial, sem integração real nesta publicação.",
+  "start_url": "./index.html#/inicio",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7fa",
+  "theme_color": "#083d4c",
+  "lang": "pt-BR",
+  "icons": [{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
 }
