@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#083d4c">
+  <meta name="description" content="Protótipo visual V1 da plataforma financeira da Clínica Áudio S.A. — demonstração sem conexão com banco de dados.">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <link rel="icon" type="image/png" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>Clínica Áudio S.A. · Plataforma financeira · DEMO V1</title>
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
+      <div class="brand"><img src="logo.png" alt="Logo Áudio S.A."><span>PLATAFORMA OPERACIONAL</span></div>
+      <div class="side-group-label">AMBIENTE CLÍNICO <span class="mini-tag">BETA</span></div>
+      <nav id="main-nav"></nav>
+      <div class="side-bottom"><span class="online-dot"></span><strong>Protótipo visual</strong><small>Operação simulada · Sem conexão com banco</small><div class="side-separator"></div><small>Desenvolvido por A.dev<br>Clínica piloto • edição V1</small></div>
+    </aside>
+    <div class="mobile-scrim" id="mobile-scrim" hidden></div>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="top-left"><button id="menu-toggle" class="icon-btn mobile-only" aria-label="Abrir menu" aria-expanded="false">☰</button><div><div class="crumb">CLÍNICA ÁUDIO S.A. / <span id="crumb-current">RESUMO FINANCEIRO</span></div><div class="top-heading" id="top-heading">Gestão operacional e financeira</div></div></div>
+        <div class="top-tools"><span class="remote-chip"><span class="online-dot"></span>OPERAÇÃO REMOTA</span><span class="demo-chip">● DEMO V1</span><button id="theme-toggle" class="icon-btn" aria-label="Alternar modo claro e escuro" title="Alternar tema">☾</button><label class="role-group"><span>Perfil</span><select id="role-select" aria-label="Perfil de demonstração"><option value="analista">Analista</option><option value="gerente">Gerente</option><option value="recepcao">Recepção remota</option><option value="profissional">Profissional</option></select></label><span class="round-avatar" aria-hidden="true">AS</span></div>
+      </header>
+      <main id="main" class="main" tabindex="-1" aria-live="polite"></main>
+      <footer class="footer">© A.dev · Versão V1 de demonstração · Dados fictícios · Sem Supabase ou autenticação real · <a href="#/acesso" data-page="acesso">Fluxo LGPD simulado</a></footer>
+    </div>
+  </div>
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="drawer" class="drawer" aria-modal="true" role="dialog" aria-labelledby="drawer-title" hidden><div class="drawer-head"><div><div class="eyebrow">OPERAÇÃO DEMONSTRATIVA</div><h2 id="drawer-title">Novo lançamento</h2></div><button id="drawer-close" class="icon-btn" aria-label="Fechar">✕</button></div><div id="drawer-body" class="drawer-body"></div></aside>
+  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
