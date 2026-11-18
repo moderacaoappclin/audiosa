@@ -1,42 +1,11 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#083d4c">
-  <meta name="description" content="audiosa.app — Gestão Integrada da Clínica Áudio S.A. Protótipo demonstrativo V1.2 sem dados reais ou integração ao backend.">
-  <meta name="robots" content="noindex,nofollow,noarchive">
-  <link rel="icon" type="image/png" href="icon-192.png">
-  <link rel="apple-touch-icon" href="icon-192.png">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="upgrade-v12.css">
-  <title>audiosa.app · Gestão Integrada · DEMO V1.2</title>
-</head>
-<body>
-  <div id="app" class="app-shell">
-    <aside class="sidebar" id="sidebar" aria-label="Navegação principal">
-      <div class="brand"><img src="logo.png" alt="Logo Áudio S.A."><span>GESTÃO INTEGRADA</span></div>
-      <div class="side-group-label">AMBIENTE CLÍNICO <span class="mini-tag">BETA</span></div>
-      <nav id="main-nav" aria-label="Módulos e funções autorizadas"></nav>
-      <div class="side-bottom"><span class="online-dot"></span><strong>Protótipo visual V1.2</strong><small>Dados fictícios · Sem conexão com banco</small><div class="side-separator"></div><small>Desenvolvido por AA.dev<br>audiosa.app • edição demonstrativa</small></div>
-    </aside>
-    <div class="mobile-scrim" id="mobile-scrim" hidden></div>
-    <div class="workspace">
-      <header class="topbar">
-        <div class="top-left"><button id="menu-toggle" class="icon-btn mobile-only" aria-label="Abrir menu" aria-expanded="false">☰</button><div><div class="crumb">CLÍNICA ÁUDIO S.A. / <span id="crumb-current">GESTÃO INTEGRADA</span></div><div class="top-heading" id="top-heading">audiosa.app · Gestão Integrada</div></div></div>
-        <div class="top-tools"><span class="demo-chip">● DEMO V1.2</span><button id="v12-bell" class="icon-btn" type="button" title="Notificações demonstrativas" aria-label="Abrir notificações">♧</button><button id="theme-toggle" class="icon-btn" aria-label="Alternar modo claro e escuro" title="Alternar tema">☾</button><label class="role-group"><span>Perfil</span><select id="role-select" aria-label="Perfil de demonstração"><option value="analista">Analista</option><option value="gerente">Gerente</option><option value="recepcao">Recepção</option><option value="profissional">Profissional</option></select></label><label id="v12-mode-wrap" class="role-group" hidden><span>Modalidade</span><select id="v12-mode" aria-label="Modalidade da recepção"><option value="remota">Remota</option><option value="presencial">Presencial</option><option value="hibrida">Híbrida</option></select></label><span class="round-avatar" aria-hidden="true">AS</span></div>
-      </header>
-      <main id="main" class="main" tabindex="-1" aria-live="polite"></main>
-      <footer class="footer">© AA.dev · audiosa.app V1.2 · Demonstração com dados fictícios · Sem banco, login real ou integração com a Central · <a href="#/acesso" data-page="acesso">LGPD: fluxo simulado</a></footer>
-    </div>
-  </div>
-  <div class="mobile-scrim" id="v12-scrim" hidden></div>
-  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
-  <aside id="drawer" class="drawer" aria-modal="true" role="dialog" aria-labelledby="drawer-title" hidden><div class="drawer-head"><div><div class="eyebrow">OPERAÇÃO DEMONSTRATIVA</div><h2 id="drawer-title">Novo lançamento</h2></div><button id="drawer-close" class="icon-btn" aria-label="Fechar">✕</button></div><div id="drawer-body" class="drawer-body"></div></aside>
-  <div id="v12-modal" class="v12-modal" role="dialog" aria-modal="true" aria-labelledby="v12-modal-title" hidden><div class="v12-modal-card"><div class="v12-modal-head"><h2 id="v12-modal-title">Demonstração</h2><button type="button" class="icon-btn" data-v12-action="modal-close" aria-label="Fechar janela">✕</button></div><div id="v12-modal-body"></div></div></div>
-  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
-  <script type="module" src="app.js"></script>
-  <script type="module" src="upgrade-v12.js"></script>
-</body>
-</html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c5965"><meta name="description" content="SGI audiosa.app · demonstração navegável dos sete aplicativos; dados exclusivamente fictícios."><meta name="robots" content="noindex,nofollow,noarchive">
+<title>SGI audiosa.app · Demonstração integrada RC7</title>
+<link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head><body>
+<div id="root"></div><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<script type="module" src="app.js"></script>
+</body></html>

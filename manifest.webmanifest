@@ -1,12 +1,1 @@
-{
-  "name": "audiosa.app — Áudio S.A. Gestão Integrada (DEMO)",
-  "short_name": "Áudio S.A. Demo",
-  "description": "Demonstração visual V1.2 de gestão integrada. Somente o Financeiro está previsto para ativação inicial, sem integração real nesta publicação.",
-  "start_url": "./index.html#/inicio",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f3f7fa",
-  "theme_color": "#083d4c",
-  "lang": "pt-BR",
-  "icons": [{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
-}
+{"name":"SGI audiosa.app — Demonstração RC7","short_name":"SGI Áudio Demo","description":"Protótipo integral e sintético dos sete aplicativos do SGI audiosa.app","lang":"pt-BR","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#eff7f8","theme_color":"#0c5965","icons":[{"src":"./icon-192.png","sizes":"192x192","type":"image/png"},{"src":"./icon-512.png","sizes":"512x512","type":"image/png"}]}
